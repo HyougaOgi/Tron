@@ -5,3 +5,6 @@ memo.txt
 .DS_Store
 build.sh
 .vscode
+old
+build
+.clang-format

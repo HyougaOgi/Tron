@@ -4,8 +4,8 @@
 
 #include "common.h"
 
-void init_window(){
-    //int display = GetCurrentMonitor();
+void init_window() {
+    // int display = GetCurrentMonitor();
 
     // printf("%d\n", display);
     // int screenHeight = 0;
@@ -26,8 +26,6 @@ void init_window(){
     //         printf("\x1b[32mset to full screen size\x1b[0m\n");
     //     }
     // }
-    int screenHeight = WINDOW_HEIGHT ;
-    int screenWidth = WINDOW_WIDTH ;
-    InitWindow(screenWidth, screenHeight, "Tron");
-    //ToggleFullscreen();
+    InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Tron");
+    // modify later for fullscreen
 }

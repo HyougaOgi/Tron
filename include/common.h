@@ -6,6 +6,6 @@
 
 struct Tron_Core {
     Camera3D* camera;
-    Vector3* cubePosition;
+    // Vector3* cubePosition;
 };
 typedef struct Tron_Core Tron_Core;

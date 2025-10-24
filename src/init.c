@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdint.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 #include "raylib.h"
@@ -15,8 +15,17 @@ uint32_t tron_init(Tron_Core* core) {
         return TRON_ERROR;
     }
     init_window();
-
-    return TRON_OK; 
+    return TRON_OK;
 }
 
 // free core->camera; // to be called during cleanup
+void tron_deinit(Tron_Core* core) {
+    if (core->camera) {
+        free(core->camera);
+    }
+    if (core) {
+        free(core);
+    }
+
+    CloseWindow();
+}

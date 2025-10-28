@@ -15,14 +15,30 @@ int main(void) {
     }
     printf("Tron initialized successfully\n");
 
+    // test code
+    int count = 0;
+
     // Vector3 cubePosition = { 0.0f, 0.0f, 0.0f };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
         BeginMode3D(*core->camera);
         // needing to read ref
-        DrawFPS(10, 10);
+        // DrawFPS(10, 10);
+        DrawFPS(0, 0);
         DrawGrid(50, 50.0f);
+        // DrawGrid(10, 10.0f);
+        // DrawModel(*core->bike_model->model, core->bike_model->position, MODEL_SIZE, BLACK);
+        // test code
+        count += 1;
+        if (count < 100000 / 3){
+            DrawModel(*core->bike_model->model, core->bike_model->position, MODEL_SIZE, BLACK);
+        }else{
+            DrawModelWires(*core->bike_model->model, core->bike_model->position, MODEL_SIZE, BLACK);
+        }
+
+        core->bike_model->position.z -= 0.01f;
+
         EndMode3D();
         EndDrawing();
     }

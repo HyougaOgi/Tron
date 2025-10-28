@@ -9,6 +9,8 @@ add_executable(tron
     src/window.c
     src/init.c
     src/camera.c
+    src/loader.c
+    src/models.c
 )
 
 target_include_directories(tron PRIVATE

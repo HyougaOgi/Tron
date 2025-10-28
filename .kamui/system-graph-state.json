@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 1,
+  "projectPath": "/Users/ogihyouga/myProjects/tron",
+  "projectRootName": "tron",
+  "graphRenderingMode": "normal",
+  "linkDisplayMode": "all",
+  "graphStats": {
+    "totalNodes": 35,
+    "folders": 11,
+    "files": 24,
+    "images": 0,
+    "videos": 0,
+    "audio": 0,
+    "code": 7,
+    "text": 2,
+    "html": 0,
+    "yaml": 0,
+    "json": 0,
+    "other": 15,
+    "totalLines": 0,
+    "maxLines": 0
+  },
+  "directoryTree": {
+    "name": "tron",
+    "type": "directory",
+    "path": "tron",
+    "children": [
+      {
+        "name": "assets",
+        "type": "directory",
+        "path": "assets",
+        "children": [
+          {
+            "name": "models",
+            "type": "directory",
+            "path": "assets/models",
+            "children": [
+              {
+                "name": "bike1",
+                "type": "directory",
+                "path": "assets/models/bike1",
+                "children": [
+                  {
+                    "name": "bike.obj",
+                    "type": "file",
+                    "path": "assets/models/bike1/bike.obj"
+                  },
+                  {
+                    "name": "bike.obj.bak",
+                    "type": "file",
+                    "path": "assets/models/bike1/bike.obj.bak"
+                  },
+                  {
+                    "name": "PurpleMotorcycle.mtl",
+                    "type": "file",
+                    "path": "assets/models/bike1/PurpleMotorcycle.mtl"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "build",
+        "type": "directory",
+        "path": "build",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": "include",
+        "type": "directory",
+        "path": "include",
+        "children": [
+          {
+            "name": "camera.h",
+            "type": "file",
+            "path": "include/camera.h"
+          },
+          {
+            "name": "common.h",
+            "type": "file",
+            "path": "include/common.h"
+          },
+          {
+            "name": "init.h",
+            "type": "file",
+            "path": "include/init.h"
+          },
+          {
+            "name": "loader.h",
+            "type": "file",
+            "path": "include/loader.h"
+          },
+          {
+            "name": "models.h",
+            "type": "file",
+            "path": "include/models.h"
+          },
+          {
+            "name": "window.h",
+            "type": "file",
+            "path": "include/window.h"
+          }
+        ]
+      },
+      {
+        "name": "old",
+        "type": "directory",
+        "path": "old",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": "output",
+        "type": "directory",
+        "path": "output",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": "raylib",
+        "type": "directory",
+        "path": "raylib",
+        "children": [],
+        "hasMore": true
+      },
+      {
+        "name": "src",
+        "type": "directory",
+        "path": "src",
+        "children": [
+          {
+            "name": "camera.c",
+            "type": "file",
+            "path": "src/camera.c"
+          },
+          {
+            "name": "init.c",
+            "type": "file",
+            "path": "src/init.c"
+          },
+          {
+            "name": "loader.c",
+            "type": "file",
+            "path": "src/loader.c"
+          },
+          {
+            "name": "main.c",
+            "type": "file",
+            "path": "src/main.c"
+          },
+          {
+            "name": "models.c",
+            "type": "file",
+            "path": "src/models.c"
+          },
+          {
+            "name": "window.c",
+            "type": "file",
+            "path": "src/window.c"
+          }
+        ]
+      },
+      {
+        "name": "tools",
+        "type": "directory",
+        "path": "tools",
+        "children": [
+          {
+            "name": "tri_obj.py",
+            "type": "file",
+            "path": "tools/tri_obj.py"
+          },
+          {
+            "name": "tri_simple.sh",
+            "type": "file",
+            "path": "tools/tri_simple.sh"
+          }
+        ]
+      },
+      {
+        "name": ".clang-format",
+        "type": "file",
+        "path": ".clang-format"
+      },
+      {
+        "name": ".DS_Store",
+        "type": "file",
+        "path": ".DS_Store"
+      },
+      {
+        "name": ".gitignore",
+        "type": "file",
+        "path": ".gitignore"
+      },
+      {
+        "name": "build.sh",
+        "type": "file",
+        "path": "build.sh"
+      },
+      {
+        "name": "CMakeLists.txt",
+        "type": "file",
+        "path": "CMakeLists.txt"
+      },
+      {
+        "name": "Makefile",
+        "type": "file",
+        "path": "Makefile"
+      },
+      {
+        "name": "memo.txt",
+        "type": "file",
+        "path": "memo.txt"
+      }
+    ]
+  },
+  "graphData": {
+    "nodes": [
+      {
+        "id": "tron",
+        "name": "tron",
+        "path": "tron",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": null,
+        "childFileCount": 7,
+        "x": 5.373714813688504,
+        "y": -13.444851701080617,
+        "z": 13.639475561155976,
+        "vx": 1.5219529081495476e-10,
+        "vy": -1.6247698026589946e-10,
+        "vz": 7.976099973802633e-11
+      },
+      {
+        "id": "tron/assets",
+        "name": "assets",
+        "path": "tron/assets",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": 5.416745654715984,
+        "y": 67.90444647579805,
+        "z": 14.017491610603555,
+        "vx": 8.386285209144356e-11,
+        "vy": -1.7586206263052084e-10,
+        "vz": 1.2856240629096585e-10
+      },
+      {
+        "id": "tron/assets/models",
+        "name": "models",
+        "path": "tron/assets/models",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron/assets",
+        "childFileCount": 0,
+        "x": 6.5351433249772475,
+        "y": 153.58687969424054,
+        "z": 11.194464037898914,
+        "vx": 4.434286092935161e-11,
+        "vy": -1.2823374609360695e-10,
+        "vz": 1.0469916911742387e-10
+      },
+      {
+        "id": "tron/assets/models/bike1",
+        "name": "bike1",
+        "path": "tron/assets/models/bike1",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron/assets/models",
+        "childFileCount": 3,
+        "x": 8.40291949541599,
+        "y": 214.81378889529222,
+        "z": 8.033691695749278,
+        "vx": -1.5489223447243436e-11,
+        "vy": -8.991359401630702e-11,
+        "vz": 1.0547363706323563e-10
+      },
+      {
+        "id": "tron/assets/models/bike1/bike.obj",
+        "name": "bike.obj",
+        "path": "tron/assets/models/bike1/bike.obj",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/assets/models/bike1",
+        "childFileCount": 0,
+        "x": -3.9572496992833583,
+        "y": 245.73946464397335,
+        "z": -11.19964248710421,
+        "vx": -6.380196149096332e-11,
+        "vy": -8.118816988119104e-11,
+        "vz": 1.1353873149398754e-10
+      },
+      {
+        "id": "tron/assets/models/bike1/bike.obj.bak",
+        "name": "bike.obj.bak",
+        "path": "tron/assets/models/bike1/bike.obj.bak",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/assets/models/bike1",
+        "childFileCount": 0,
+        "x": 3.3095455470942765,
+        "y": 247.65851172933915,
+        "z": 27.211793146542025,
+        "vx": -6.537651576572468e-11,
+        "vy": -8.563897603120384e-11,
+        "vz": 1.0979391641874976e-10
+      },
+      {
+        "id": "tron/assets/models/bike1/PurpleMotorcycle.mtl",
+        "name": "PurpleMotorcycle.mtl",
+        "path": "tron/assets/models/bike1/PurpleMotorcycle.mtl",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/assets/models/bike1",
+        "childFileCount": 0,
+        "x": 33.479940344071984,
+        "y": 243.05223334151077,
+        "z": 1.733939944481044,
+        "vx": -6.593590154355315e-11,
+        "vy": -3.020986222358668e-11,
+        "vz": 1.092992414112443e-10
+      },
+      {
+        "id": "tron/build",
+        "name": "build",
+        "path": "tron/build",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": -35.15203910807462,
+        "y": -13.296398631377972,
+        "z": 5.738544406263215,
+        "vx": 1.7239109754927263e-10,
+        "vy": -1.6844666575667203e-10,
+        "vz": 4.6375944987632975e-11
+      },
+      {
+        "id": "tron/include",
+        "name": "include",
+        "path": "tron/include",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 6,
+        "x": 35.65352623917551,
+        "y": -29.124464797746835,
+        "z": -77.21380608620865,
+        "vx": 1.7695904619527212e-10,
+        "vy": 3.3855010749341313e-13,
+        "vz": 7.174072554417564e-11
+      },
+      {
+        "id": "tron/include/camera.h",
+        "name": "camera.h",
+        "path": "tron/include/camera.h",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/include",
+        "childFileCount": 0,
+        "x": 48.738334816050916,
+        "y": -65.23118949146755,
+        "z": -88.68269064714332,
+        "vx": 2.2466304576067175e-10,
+        "vy": 2.1562016455783757e-12,
+        "vz": -6.379427956122367e-11
+      },
+      {
+        "id": "tron/include/common.h",
+        "name": "common.h",
+        "path": "tron/include/common.h",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/include",
+        "childFileCount": 0,
+        "x": 52.53620919224416,
+        "y": -39.98937892739356,
+        "z": -113.88713544305793,
+        "vx": 1.5143595077301768e-10,
+        "vy": 1.961270613586495e-11,
+        "vz": -4.359565970159864e-12
+      },
+      {
+        "id": "tron/include/init.h",
+        "name": "init.h",
+        "path": "tron/include/init.h",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/include",
+        "childFileCount": 0,
+        "x": 21.569905040752392,
+        "y": -17.356545265472135,
+        "z": -114.03825714542889,
+        "vx": 9.495225538627474e-11,
+        "vy": 1.3243811010218702e-10,
+        "vz": 1.0533836551265048e-10
+      },
+      {
+        "id": "tron/include/loader.h",
+        "name": "loader.h",
+        "path": "tron/include/loader.h",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/include",
+        "childFileCount": 0,
+        "x": 74.76683603248719,
+        "y": -34.281605865225,
+        "z": -85.22622728953458,
+        "vx": 1.8424628503306138e-10,
+        "vy": 4.6903512143531015e-11,
+        "vz": -1.562793862332805e-11
+      },
+      {
+        "id": "tron/include/models.h",
+        "name": "models.h",
+        "path": "tron/include/models.h",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/include",
+        "childFileCount": 0,
+        "x": 16.31038357294542,
+        "y": -49.70413084306439,
+        "z": -106.54744519886943,
+        "vx": 1.6930220867725253e-10,
+        "vy": 5.1948800965998836e-11,
+        "vz": 7.498557264957585e-12
+      },
+      {
+        "id": "tron/include/window.h",
+        "name": "window.h",
+        "path": "tron/include/window.h",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/include",
+        "childFileCount": 0,
+        "x": 54.023496101022126,
+        "y": -7.179522918767907,
+        "z": -106.35190267881748,
+        "vx": 1.6761060584491638e-10,
+        "vy": 1.5982640959565084e-10,
+        "vz": 1.4652092676769853e-10
+      },
+      {
+        "id": "tron/old",
+        "name": "old",
+        "path": "tron/old",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": 16.26847583066455,
+        "y": 11.677908427879759,
+        "z": -15.822169862963994,
+        "vx": 3.194349376430558e-10,
+        "vy": -2.0968002198296377e-10,
+        "vz": 1.1188189140658889e-10
+      },
+      {
+        "id": "tron/output",
+        "name": "output",
+        "path": "tron/output",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": 44.74315380013776,
+        "y": -2.872844805162586,
+        "z": 8.872385028088255,
+        "vx": 2.0564186236486544e-10,
+        "vy": -3.1259298570902703e-10,
+        "vz": 1.1422889347061073e-10
+      },
+      {
+        "id": "tron/raylib",
+        "name": "raylib",
+        "path": "tron/raylib",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": -16.137828116322627,
+        "y": -9.31920329862819,
+        "z": -20.435014484371766,
+        "vx": 1.917575528831704e-10,
+        "vy": -2.1774304244157758e-10,
+        "vz": 6.970441474238813e-11
+      },
+      {
+        "id": "tron/src",
+        "name": "src",
+        "path": "tron/src",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 6,
+        "x": -60.45925293753704,
+        "y": -90.51036440625532,
+        "z": 17.27718047359112,
+        "vx": -2.7603762402147058e-11,
+        "vy": -3.2486303898446094e-11,
+        "vz": 1.5980713676362387e-10
+      },
+      {
+        "id": "tron/src/camera.c",
+        "name": "camera.c",
+        "path": "tron/src/camera.c",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/src",
+        "childFileCount": 0,
+        "x": -98.80467574300611,
+        "y": -88.57006274561128,
+        "z": 30.367582701502855,
+        "vx": -3.183250596958154e-11,
+        "vy": 3.6511915781541315e-11,
+        "vz": 1.7196950736339927e-10
+      },
+      {
+        "id": "tron/src/init.c",
+        "name": "init.c",
+        "path": "tron/src/init.c",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/src",
+        "childFileCount": 0,
+        "x": -69.37256526019623,
+        "y": -112.13544272450959,
+        "z": 50.277397830974635,
+        "vx": -6.073602559794286e-11,
+        "vy": 4.07983048490847e-11,
+        "vz": 1.966941191636493e-10
+      },
+      {
+        "id": "tron/src/loader.c",
+        "name": "loader.c",
+        "path": "tron/src/loader.c",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/src",
+        "childFileCount": 0,
+        "x": -92.47946903518232,
+        "y": -97.95788763928566,
+        "z": -6.778040325430978,
+        "vx": -7.116805846235007e-11,
+        "vy": 3.6338096202774894e-11,
+        "vz": 1.6042718516233314e-10
+      },
+      {
+        "id": "tron/src/main.c",
+        "name": "main.c",
+        "path": "tron/src/main.c",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/src",
+        "childFileCount": 0,
+        "x": -48.87813281549728,
+        "y": -128.8711353031551,
+        "z": 22.623983231043805,
+        "vx": -5.2170788419929064e-11,
+        "vy": -4.7862484663621734e-11,
+        "vz": 1.910601851208109e-10
+      },
+      {
+        "id": "tron/src/models.c",
+        "name": "models.c",
+        "path": "tron/src/models.c",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/src",
+        "childFileCount": 0,
+        "x": -88.56310781881953,
+        "y": -120.98910320439111,
+        "z": 23.2398650997226,
+        "vx": -4.861140760523694e-11,
+        "vy": -3.0793788130891374e-11,
+        "vz": 1.1545884894378302e-10
+      },
+      {
+        "id": "tron/src/window.c",
+        "name": "window.c",
+        "path": "tron/src/window.c",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron/src",
+        "childFileCount": 0,
+        "x": -66.64782709185548,
+        "y": -122.9650640088397,
+        "z": -6.810099625793089,
+        "vx": -4.298015879365695e-11,
+        "vy": 6.8795519392857505e-12,
+        "vz": 9.92660732675772e-11
+      },
+      {
+        "id": "tron/tools",
+        "name": "tools",
+        "path": "tron/tools",
+        "type": "directory",
+        "lines": 0,
+        "val": 14,
+        "color": "#4d515a",
+        "baseColor": "#4ec9b0",
+        "originalColor": "#4ec9b0",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 2,
+        "x": 35.89726611580132,
+        "y": -21.900931802963903,
+        "z": 81.93371333988044,
+        "vx": 2.6281476977348646e-10,
+        "vy": -9.615779753407479e-11,
+        "vz": 2.698572301129971e-11
+      },
+      {
+        "id": "tron/tools/tri_obj.py",
+        "name": "tri_obj.py",
+        "path": "tron/tools/tri_obj.py",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/tools",
+        "childFileCount": 0,
+        "x": 58.08938993233084,
+        "y": -39.726303334018084,
+        "z": 111.07700445665441,
+        "vx": 2.8763128610657876e-10,
+        "vy": 8.675658338144851e-11,
+        "vz": 2.2181794664234957e-10
+      },
+      {
+        "id": "tron/tools/tri_simple.sh",
+        "name": "tri_simple.sh",
+        "path": "tron/tools/tri_simple.sh",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": true,
+        "parentPath": "tron/tools",
+        "childFileCount": 0,
+        "x": 40.55842582844341,
+        "y": -13.62168305661189,
+        "z": 122.3817118720377,
+        "vx": 2.7193872543320054e-10,
+        "vy": -8.127289832013659e-11,
+        "vz": 7.031999743428142e-11
+      },
+      {
+        "id": "tron/.clang-format",
+        "name": ".clang-format",
+        "path": "tron/.clang-format",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": -5.571447979229016,
+        "y": 25.82651308244305,
+        "z": 9.33850059639606,
+        "vx": 1.7356387329789387e-10,
+        "vy": -1.8469929157754836e-10,
+        "vz": 3.730020907963827e-11
+      },
+      {
+        "id": "tron/.DS_Store",
+        "name": ".DS_Store",
+        "path": "tron/.DS_Store",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": 10.579998031364555,
+        "y": -51.53205267314069,
+        "z": 6.220935143362891,
+        "vx": 2.999608839786613e-10,
+        "vy": -1.7429075409138977e-10,
+        "vz": 1.2589107659159995e-10
+      },
+      {
+        "id": "tron/.gitignore",
+        "name": ".gitignore",
+        "path": "tron/.gitignore",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": -0.6802072157567175,
+        "y": -7.345132206713384,
+        "z": 53.46545740551866,
+        "vx": 2.2114102756615356e-10,
+        "vy": -1.2455261370258105e-10,
+        "vz": 1.397507879830063e-10
+      },
+      {
+        "id": "tron/build.sh",
+        "name": "build.sh",
+        "path": "tron/build.sh",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": -25.00009232222529,
+        "y": 12.190999050426322,
+        "z": 28.613597977406005,
+        "vx": 1.707281129507534e-10,
+        "vy": -2.0544269629234131e-10,
+        "vz": 1.9809348302249134e-10
+      },
+      {
+        "id": "tron/CMakeLists.txt",
+        "name": "CMakeLists.txt",
+        "path": "tron/CMakeLists.txt",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#95a5a6",
+        "baseColor": "#95a5a6",
+        "originalColor": "#95a5a6",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": 36.791478755051294,
+        "y": -34.43104203886701,
+        "z": 28.56809669499133,
+        "vx": 1.5546809717186408e-10,
+        "vy": -2.2299766878911519e-10,
+        "vz": 9.166490684450326e-11
+      },
+      {
+        "id": "tron/Makefile",
+        "name": "Makefile",
+        "path": "tron/Makefile",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#57606f",
+        "baseColor": "#57606f",
+        "originalColor": "#57606f",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": 26.904043297823957,
+        "y": 12.966940516408593,
+        "z": 37.112446067096194,
+        "vx": 2.3766118633832326e-10,
+        "vy": -2.349341673095809e-10,
+        "vz": 7.639352515522418e-11
+      },
+      {
+        "id": "tron/memo.txt",
+        "name": "memo.txt",
+        "path": "tron/memo.txt",
+        "type": "file",
+        "lines": 0,
+        "val": 6,
+        "color": "#95a5a6",
+        "baseColor": "#95a5a6",
+        "originalColor": "#95a5a6",
+        "defaultGlow": 0.18,
+        "glowIntensity": 0.18,
+        "highlighted": false,
+        "parentPath": "tron",
+        "childFileCount": 0,
+        "x": -24.245036619140603,
+        "y": -23.061344170402464,
+        "z": 40.05317295731589,
+        "vx": 2.591717445646082e-10,
+        "vy": -3.6308719649303593e-10,
+        "vz": 1.2907796480354653e-10
+      }
+    ],
+    "links": [
+      {
+        "source": "tron",
+        "target": "tron/assets",
+        "type": "tree"
+      },
+      {
+        "source": "tron/assets",
+        "target": "tron/assets/models",
+        "type": "tree"
+      },
+      {
+        "source": "tron/assets/models",
+        "target": "tron/assets/models/bike1",
+        "type": "tree"
+      },
+      {
+        "source": "tron/assets/models/bike1",
+        "target": "tron/assets/models/bike1/bike.obj",
+        "type": "tree"
+      },
+      {
+        "source": "tron/assets/models/bike1",
+        "target": "tron/assets/models/bike1/bike.obj.bak",
+        "type": "tree"
+      },
+      {
+        "source": "tron/assets/models/bike1",
+        "target": "tron/assets/models/bike1/PurpleMotorcycle.mtl",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/build",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/include",
+        "type": "tree"
+      },
+      {
+        "source": "tron/include",
+        "target": "tron/include/camera.h",
+        "type": "tree"
+      },
+      {
+        "source": "tron/include",
+        "target": "tron/include/common.h",
+        "type": "tree"
+      },
+      {
+        "source": "tron/include",
+        "target": "tron/include/init.h",
+        "type": "tree"
+      },
+      {
+        "source": "tron/include",
+        "target": "tron/include/loader.h",
+        "type": "tree"
+      },
+      {
+        "source": "tron/include",
+        "target": "tron/include/models.h",
+        "type": "tree"
+      },
+      {
+        "source": "tron/include",
+        "target": "tron/include/window.h",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/old",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/output",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/raylib",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/src",
+        "type": "tree"
+      },
+      {
+        "source": "tron/src",
+        "target": "tron/src/camera.c",
+        "type": "tree"
+      },
+      {
+        "source": "tron/src",
+        "target": "tron/src/init.c",
+        "type": "tree"
+      },
+      {
+        "source": "tron/src",
+        "target": "tron/src/loader.c",
+        "type": "tree"
+      },
+      {
+        "source": "tron/src",
+        "target": "tron/src/main.c",
+        "type": "tree"
+      },
+      {
+        "source": "tron/src",
+        "target": "tron/src/models.c",
+        "type": "tree"
+      },
+      {
+        "source": "tron/src",
+        "target": "tron/src/window.c",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/tools",
+        "type": "tree"
+      },
+      {
+        "source": "tron/tools",
+        "target": "tron/tools/tri_obj.py",
+        "type": "tree"
+      },
+      {
+        "source": "tron/tools",
+        "target": "tron/tools/tri_simple.sh",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/.clang-format",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/.DS_Store",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/.gitignore",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/build.sh",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/CMakeLists.txt",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/Makefile",
+        "type": "tree"
+      },
+      {
+        "source": "tron",
+        "target": "tron/memo.txt",
+        "type": "tree"
+      }
+    ]
+  },
+  "trackedFiles": [
+    ".gitignore",
+    "CMakeLists.txt",
+    "include/camera.h",
+    "include/common.h",
+    "include/init.h",
+    "include/window.h",
+    "src/camera.c",
+    "src/init.c",
+    "src/main.c",
+    "src/window.c"
+  ],
+  "uiState": {
+    "expandedDirs": [
+      "tron",
+      "tron/tron",
+      "tron/include",
+      "tron/tron/include",
+      "tron/src",
+      "tron/tron/src",
+      "tron/assets",
+      "tron/tron/assets",
+      "tron/assets/models",
+      "tron/tron/assets/models",
+      "tron/assets/models/bike1",
+      "tron/tron/assets/models/bike1",
+      "tron/tools",
+      "tron/tron/tools",
+      "tron/.kamui",
+      "tron/tron/.kamui"
+    ],
+    "selectedPath": null
+  },
+  "directoryTreeMeta": {
+    "mode": "full",
+    "maxDepthApplied": 10,
+    "maxEntriesPerDirectory": 0,
+    "isPartial": false
+  },
+  "gitHistoryMeta": {
+    "mode": "full",
+    "isPartial": false,
+    "branchPulse": {
+      "generatedAt": 1761657077062,
+      "targets": [
+        "main",
+        "master"
+      ],
+      "statsByBranch": {
+        "main": {
+          "branch": "main",
+          "head": "76ca89ac42edb48395b5b55200097df4193e8854",
+          "baseRef": "origin/main",
+          "baseHead": "76ca89ac42edb48395b5b55200097df4193e8854",
+          "mergeBase": "76ca89ac42edb48395b5b55200097df4193e8854",
+          "divergence": {
+            "aheadCount": 0,
+            "fileCount": 0
+          },
+          "baseline": {
+            "aheadCount": 0,
+            "behindCount": 0,
+            "fileCount": 0
+          },
+          "upstream": null
+        }
+      }
+    }
+  },
+  "gitHistoryState": {
+    "selectedTimelineIndex": 1,
+    "activeCommitHash": null,
+    "entries": [
+      {
+        "type": "live",
+        "label": "現在のコードベース",
+        "files": [],
+        "branch": "main",
+        "targetCommitHash": "76ca89ac42edb48395b5b55200097df4193e8854",
+        "worktreePath": "/Users/ogihyouga/myProjects/tron",
+        "timestamp": 1761657077130,
+        "lane": 0,
+        "branchLabel": "main",
+        "branchTags": [
+          "main"
+        ],
+        "isDefaultWorktree": true,
+        "branchColor": "#4f85e8",
+        "index": 0
+      },
+      {
+        "type": "unstaged",
+        "label": "未ステージ (17)",
+        "files": [
+          "include/camera.h",
+          "include/common.h",
+          "include/init.h",
+          "include/window.h",
+          "src/camera.c",
+          "src/init.c",
+          "src/main.c",
+          ".kamui/system-graph-state.json",
+          "assets/models/bike1/PurpleMotorcycle.mtl",
+          "assets/models/bike1/bike.obj",
+          "assets/models/bike1/bike.obj.bak",
+          "include/loader.h",
+          "include/models.h",
+          "src/loader.c",
+          "src/models.c",
+          "tools/tri_obj.py",
+          "tools/tri_simple.sh"
+        ],
+        "branch": "main",
+        "targetCommitHash": "76ca89ac42edb48395b5b55200097df4193e8854",
+        "worktreePath": "/Users/ogihyouga/myProjects/tron",
+        "timestamp": 1761657077130,
+        "sortOrder": 0,
+        "lane": 0,
+        "branchColor": "#4f85e8",
+        "index": 1
+      },
+      {
+        "type": "staged",
+        "label": "ステージ済み (1)",
+        "files": [
+          "MakeLists.txt"
+        ],
+        "branch": "main",
+        "targetCommitHash": "76ca89ac42edb48395b5b55200097df4193e8854",
+        "worktreePath": "/Users/ogihyouga/myProjects/tron",
+        "timestamp": 1761657077130,
+        "sortOrder": 1,
+        "lane": 0,
+        "branchColor": "#4f85e8",
+        "index": 2
+      },
+      {
+        "type": "commit",
+        "label": "modified code a little and code style",
+        "commit": {
+          "hash": "76ca89ac42edb48395b5b55200097df4193e8854",
+          "subject": "modified code a little and code style",
+          "author": "Hyoga Ogi",
+          "timestamp": 1761320243,
+          "parents": [
+            "808741afe328fe39f4d611f33be803d913b3a44c"
+          ],
+          "parent": "808741afe328fe39f4d611f33be803d913b3a44c",
+          "refs": "HEAD -> main, origin/main",
+          "branches": [
+            "HEAD -> main",
+            "origin/main",
+            "main"
+          ]
+        },
+        "commitHash": "76ca89ac42edb48395b5b55200097df4193e8854",
+        "lane": 0,
+        "parentLinks": [
+          {
+            "hash": "808741afe328fe39f4d611f33be803d913b3a44c",
+            "lane": 0
+          }
+        ],
+        "primaryBranchName": "main",
+        "branchColor": "#4f85e8",
+        "branchTags": [
+          "main"
+        ],
+        "worktrees": [
+          {
+            "path": "/Users/ogihyouga/myProjects/tron",
+            "head": "76ca89ac42edb48395b5b55200097df4193e8854",
+            "branch": "main",
+            "isMerged": false,
+            "mergeCommitHash": null,
+            "status": {
+              "staged": [
+                {
+                  "path": "MakeLists.txt",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "MakeLists.txt",
+                  "timestamp": 1761657076729
+                }
+              ],
+              "unstaged": [
+                {
+                  "path": "include/camera.h",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "include/camera.h",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "include/common.h",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "include/common.h",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "include/init.h",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "include/init.h",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "include/window.h",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "include/window.h",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "src/camera.c",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "src/camera.c",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "src/init.c",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "src/init.c",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "src/main.c",
+                  "originalPath": null,
+                  "status": "modified",
+                  "rawPath": "src/main.c",
+                  "timestamp": 1761657076729
+                }
+              ],
+              "untracked": [
+                {
+                  "path": ".kamui/system-graph-state.json",
+                  "status": "untracked",
+                  "rawPath": ".kamui/system-graph-state.json",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "assets/models/bike1/PurpleMotorcycle.mtl",
+                  "status": "untracked",
+                  "rawPath": "assets/models/bike1/PurpleMotorcycle.mtl",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "assets/models/bike1/bike.obj",
+                  "status": "untracked",
+                  "rawPath": "assets/models/bike1/bike.obj",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "assets/models/bike1/bike.obj.bak",
+                  "status": "untracked",
+                  "rawPath": "assets/models/bike1/bike.obj.bak",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "include/loader.h",
+                  "status": "untracked",
+                  "rawPath": "include/loader.h",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "include/models.h",
+                  "status": "untracked",
+                  "rawPath": "include/models.h",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "src/loader.c",
+                  "status": "untracked",
+                  "rawPath": "src/loader.c",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "src/models.c",
+                  "status": "untracked",
+                  "rawPath": "src/models.c",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "tools/tri_obj.py",
+                  "status": "untracked",
+                  "rawPath": "tools/tri_obj.py",
+                  "timestamp": 1761657076729
+                },
+                {
+                  "path": "tools/tri_simple.sh",
+                  "status": "untracked",
+                  "rawPath": "tools/tri_simple.sh",
+                  "timestamp": 1761657076729
+                }
+              ],
+              "capturedAt": 1761657076729
+            },
+            "normalizedPath": "/Users/ogihyouga/myProjects/tron",
+            "lane": 0
+          }
+        ],
+        "index": 3
+      },
+      {
+        "type": "commit",
+        "label": "First Commit!",
+        "commit": {
+          "hash": "808741afe328fe39f4d611f33be803d913b3a44c",
+          "subject": "First Commit!",
+          "author": "Hyoga Ogi",
+          "timestamp": 1761143706,
+          "parents": [],
+          "parent": null,
+          "refs": "",
+          "branches": [
+            "main"
+          ]
+        },
+        "commitHash": "808741afe328fe39f4d611f33be803d913b3a44c",
+        "lane": 0,
+        "parentLinks": [],
+        "primaryBranchName": "main",
+        "branchColor": "#4f85e8",
+        "branchTags": [],
+        "index": 4
+      },
+      {
+        "type": "empty",
+        "label": "初期状態 (初回コミット以前)",
+        "files": [],
+        "marker": "pre-history",
+        "index": 5
+      }
+    ]
+  },
+  "projectRoot": "/Users/ogihyouga/myProjects/tron",
+  "savedAt": 1761657104561
+}

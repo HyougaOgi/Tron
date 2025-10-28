@@ -8,3 +8,4 @@ build.sh
 old
 build
 .clang-format
+.kamui

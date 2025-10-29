@@ -8,4 +8,6 @@ build.sh
 old
 build
 .clang-format
-.kamui
+.kamui/
+assets/models/bike1/bike.obj.bak
+assets/models/bike1/PurpleMotorcycle.mtl

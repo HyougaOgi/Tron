@@ -4,7 +4,7 @@
 
 #include "common.h"
 
-void init_window() {
+void init_window(void) {
     // int display = GetCurrentMonitor();
 
     // printf("%d\n", display);

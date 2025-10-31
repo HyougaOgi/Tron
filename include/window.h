@@ -1,2 +1,2 @@
 #pragma once
-void init_window();
+void init_window(void);

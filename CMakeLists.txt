@@ -14,7 +14,6 @@ add_executable(tron
     src/loader.c
     src/models.c
     src/keyboard.c
-    test/src/test_keyboard.c
 )
 
 target_include_directories(tron PRIVATE
@@ -33,6 +32,7 @@ set_target_properties(tron PROPERTIES
 
 if(TEST_KEYBOARD)
     target_compile_definitions(tron PRIVATE TEST_KEYBOARD=1)
+    target_sources(tron PRIVATE test/src/test_keyboard.c)
 endif()
 
 target_link_libraries(tron PRIVATE

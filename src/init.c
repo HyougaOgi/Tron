@@ -31,7 +31,7 @@ uint32_t tron_init(Tron_Core* core) {
 }
 
 // free core->camera; // to be called during cleanup
-void tron_deinit(Tron_Core* core) {
+uint32_t tron_deinit(Tron_Core* core) {
     if (core->camera) {
         free(core->camera);
     }
@@ -46,4 +46,5 @@ void tron_deinit(Tron_Core* core) {
     }
 
     CloseWindow();
+    return TRON_OK;
 }

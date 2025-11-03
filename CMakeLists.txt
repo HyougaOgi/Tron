@@ -36,7 +36,7 @@ if(TEST_KEYBOARD)
 endif()
 
 target_link_libraries(tron PRIVATE
-    ${CMAKE_SOURCE_DIR}/raylib/src/libraylib.a
+    ${CMAKE_SOURCE_DIR}/library/raylib/src/libraylib.a
 )
 
 if(APPLE)
